@@ -6,4 +6,6 @@ def get_random_string(length):
     result_str = ''.join(random.choice(letters) for i in range(length))
     print("Random string of length", length, "is:", result_str)
 
-get_random_string(8)
+num = int(input('Enter a number (length of character): '))
+
+get_random_string(num)
